@@ -1,0 +1,11 @@
+# Compilados
+*.class
+build/
+dist/
+target/
+
+# Configuración local de NetBeans
+**/nbproject/private/
+
+# Comprimidos
+*.zip
