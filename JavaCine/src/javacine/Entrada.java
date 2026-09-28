@@ -11,7 +11,7 @@
  */
 public class Entrada {
     int tipo;
-    double precio;
+    int precio;
     
     public Entrada(int t) {
         tipo = t;
@@ -43,14 +43,17 @@ public class Entrada {
         switch (tipo) {
             
             case 1:
+                System.out.println("Tipo: Normal");
                 System.out.println("precio de la entrada: "+ precio );
             break;
             
             case 2:
+                System.out.println("Tipo: Estudiante");
                 System.out.println("Precio de la entrada: "+ precio);
             break;
             
             case 3:
+                System.out.println("Tipo: Adulto Mayor");
                 System.out.println("Precio de la entrada: "+ precio);
             break;
             

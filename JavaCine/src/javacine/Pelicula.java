@@ -22,7 +22,7 @@ package javacine;
     }
     
     public void mostrarInformacion() {
-        System.out.println("nombre: " + nombre + "\nGenero: " + genero + "\nduracion : "+ duracion + " minutos");
+        System.out.println("nombre: " + nombre + "\nGenero: " + genero + "\nduracion: "+ duracion + " minutos");
     
     }
     public void esPeliculaLarga() {
